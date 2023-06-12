@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #222;
+}
+
+/* header
+------------------------------ */
+#header {
+  width: 80%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 10;
+}
+#header .wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#header p {
+  float: left;
+  margin: 22px 0 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#header ul {
+  float: right;
+  margin: 28px 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+#header ul li {
+  float: left;
+  margin-right: 40px;
+}
+#header ul li:last-child {
+  margin-right: 0;
+}
+
+/* main
+------------------------------ */
+
+/* title */
+main {
+  padding-top: 80px;
+}
+
+.line_btn {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.line_btn h2 {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.line_btn p {
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px;
+  line-height: 150%;
+}
+
+.line_btn button {
+  padding: 5px 10px;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.main_title {
+  height: 100%;
+  writing-mode: vertical-rl;
+  font-size: 32px;
+  letter-spacing: 10px;
+  line-height: 200%;
+  width: 90%;
+  padding-top: 50px;
+}
+
+/* YARUKIとは */
+
+section {
+  width: 80%;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 42px;
+  letter-spacing: 0.15em;
+}
+
+section p {
+  padding: 50px 0px 20px 5px;
+  letter-spacing: 0.04em;
+  line-height: 130%;
+  font-size: 20px;
+}
