@@ -101,6 +101,48 @@ section h2 {
 section p {
   padding: 50px 0px 20px 5px;
   letter-spacing: 0.04em;
-  line-height: 130%;
+  line-height: 150%;
   font-size: 20px;
+}
+
+/* 特徴 */
+.section2 {
+  margin-top: 200px;
+  text-align: center;
+}
+.section2 ul {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+}
+
+.section2 ul li {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 1%;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.section2 ul li h3 {
+  font-size: 23px;
+  letter-spacing: 00.15em;
+}
+
+.section2 ul li p {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 130%;
+  padding: 30px 0px;
+}
+
+/* さっそく開始 */
+.section3 {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.detail {
+  text-align: left;
 }
