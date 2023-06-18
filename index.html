@@ -4,24 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YARUKI</title>
+    <title>YARUKI community</title>
     <link
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </head>
   <body>
     <header id="header">
       <div class="wrapper">
-        <p class="logo"><a href="#">YARUKI</a></p>
-        <nav>
+        <p class="logo"><a href="#">YARUKI community</a></p>
+        <nav id="header_nav">
           <ul>
-            <li><a href="#section2">YARUKIとは</a></li>
+            <li><a href="#section2">サービス</a></li>
             <li><a href="#section3">特徴</a></li>
-            <li><a href="#section4">料金</a></li>
-            <li><a href="#section5">Twitter</a></li>
-            <li><a href="#section6">Instagram</a></li>
+            <li><a href="#for_">入会</a></li>
+            <li><a href="#section5">協力企業 </a></li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -59,52 +72,68 @@
         <ul>
           <li>
             <h3>デポジット制度</h3>
+            <img src="./image/deposit.png" alt="#" class="featureImg" />
             <p>
               自分で決めたスケジュールに出席できないない場合に罰金が課され、預けているお金が没収されます。これでもうやるしかありません。
             </p>
           </li>
           <li>
             <h3>コミュニティ</h3>
+            <img src="./image/community.png" alt="" />
             <p>
               メンバー間の交流によって孤独になりがちな学習者の社会的欲求を満たし、モチベーションを刺激します。そして、向上心の強い優秀なメンバーたちと繋がることができます。
             </p>
           </li>
           <li>
             <h3>学習スケジュール管理</h3>
+            <img src="./image/schedule.png" alt="" class="featureImg" />
             <p>
               1日のスケジュールを明確にすることでそれをやり遂げた時、達成感や満足感を得ることができます。そして、そのスケジュールを共有することは、義務感や責任感を生み、自分のスケジュールを守ろうとする意欲を高めます。
             </p>
           </li>
           <li>
             <h3>相互監視</h3>
+            <img src="./image/monitering.png" alt="" class="featureImg" />
             <p>
               他人に見られているという意識は自分のタスクに対する集中力を高めてくれます。また、他のメンバーの作業を見ることで競争心が刺激されモチベーションをさらに高めてくれます。
             </p>
           </li>
           <li>
             <h3>圧倒的な低価格</h3>
+            <img src="./image/cost.png" alt="" class="featureImg" />
             <p>
               高額なコーチングサービスや自習室を利用する必要はもうありません。
             </p>
           </li>
         </ul>
       </section>
+      <section id="for_"></section>
       <section class="section4" id="section4">
-        <h2>基本料金</h2>
-        <p>月額:１０００円</p>
+        <h2 class="on_section">入会</h2>
+        <p id="feeM">基本料金：１０００円／月</p>
+        <p>年齢：１８歳以上</p>
+        <span>
+          YARUKI
+          communityは、質の高い環境を保つために、参加人数に制限を設けておりますのでどうぞお早めにお申し込みください。
+        </span>
+        <button id="entry_btn"><img src="./image/line@.gif" alt="" /></button>
       </section>
-      <section class="section5">
+      <section class="section5" id="section5">
         <h2>協力企業</h2>
-        <a href="https://rhetica.com/"
-          ><img src="まだ未定" alt="" />株式会社Rhetica</a
-        >
+        <br />
+        <a href="https://rhetica.com/" id="companies">
+          <img src="./image/Rhetica.webp" alt="" />
+          <p>株式会社Rhetica</p>
+        </a>
       </section>
     </main>
-    <footer>
-      <ul>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Gmail</a></li>
+    <footer class="footer">
+      <p class="copyright">© 2023 YARUKI community All Rights Reserved.</p>
+      <ul class="md-flex">
+        <li><a href="./ privacy_policy.html">特定商取引法に基づく表記</a></li>
+        <li><a href="#">利用規約</a></li>
+        <li><a href="#">プライバシーポリシー</a></li>
+        <li><a href="#">お問い合わせ</a></li>
       </ul>
     </footer>
   </body>

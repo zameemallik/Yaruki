@@ -1,0 +1,18 @@
+h1 {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 50px;
+}
+
+.paragraph {
+  padding-top: 30px;
+  line-height: 150%;
+  letter-spacing: 0.2em;
+}
