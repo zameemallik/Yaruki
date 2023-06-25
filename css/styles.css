@@ -224,6 +224,10 @@ section p {
   margin-top: 80px;
   font-size: 18px;
 }
+
+#feeMspan {
+  font-size: 54px;
+}
 #entry_btn {
   display: block;
   margin: 0 auto;
@@ -270,7 +274,7 @@ section p {
   color: #000;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .footer {
     display: flex;
     justify-content: space-between;
@@ -286,21 +290,57 @@ section p {
 }
 
 @media (max-width: 850px) {
-  .on_section {
-    top: -9%;
+  main {
+    width: 100%;
+  }
+  .main_title {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-right: 15%;
+    font-size: 22px;
+    margin-top: 20px;
+    background-size: 60%;
+    background-position: 20% 60%;
   }
 
+  section h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  section p {
+    padding: 30px 0px 20px 0px;
+    font-size: 18px;
+  }
+
+  .section3 {
+    margin-top: 200px;
+  }
   .section3 ul li {
     width: 100%;
-    box-sizing: border-box;
-    display: block;
-    float: right;
     margin: 1%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-right: 3%;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 -15px 25px -10px rgba(0, 0, 0, 0.1);
+  }
+
+  .section4 {
+    width: 70%;
+  }
+
+  .on_section {
+    top: -8%;
+  }
+
+  #feeM {
+    margin-top: 40px;
+  }
+
+  .section5 p {
+    font-size: 24px;
   }
 
   #header_nav {
@@ -326,12 +366,43 @@ section p {
   }
 
   #entry_btn {
-    width: 90%;
+    width: 70%;
+  }
+
+  html {
+    width: 100%;
   }
 }
 
 @media (max-width: 500px) {
+  section,
+  .section3,
+  .section4,
+  .section5,
+  #for_ {
+    margin-top: 100px;
+  }
   .on_section {
-    top: -10%;
+    top: -7%;
+  }
+
+  #feeM {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  #feeMspan {
+    font-size: 25px;
+  }
+
+  .section3 ul li {
+    margin-right: 0px;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+
+  .section5 #companies img {
+    width: 80%;
   }
 }
