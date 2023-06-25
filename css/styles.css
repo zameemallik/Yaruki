@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   font-family: "Noto Sans JP", sans-serif;
   color: balck;
-  background-color: #f6f6f6;
+  background-color: #f2f2f2;
 }
 
 /* header
@@ -108,7 +108,7 @@ main {
   background-image: url(../image/Yaruki_Website.jpg);
   background-size: 80%;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: top center;
 }
 
 /* YARUKIとは */
@@ -375,12 +375,28 @@ section p {
 }
 
 @media (max-width: 500px) {
+  .main_title {
+    width: 100%;
+    padding: 190px 0 0 50px;
+    margin: 0;
+    box-sizing: border-box;
+    padding-right: 15%;
+    font-size: 12px;
+    margin-top: 20px;
+    background-size: 80%;
+    background-position: center top;
+    height: 225%;
+    text-align: center;
+    writing-mode: unset;
+  }
+
   section,
   .section3,
   .section4,
   .section5,
   #for_ {
-    margin-top: 100px;
+    margin-top: 150px;
+    text-align: center;
   }
   .on_section {
     top: -7%;
