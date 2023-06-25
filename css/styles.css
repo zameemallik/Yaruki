@@ -2,13 +2,14 @@
 
 html {
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 body {
   width: 100%;
   margin: 0 auto;
   font-family: "Noto Sans JP", sans-serif;
   color: balck;
-  background-color: #f4f4f4;
+  background-color: #f6f6f6;
 }
 
 /* header
@@ -24,7 +25,7 @@ body {
   width: 90%;
 }
 
-#header p {
+.logo {
   float: left;
   margin: 22px 0;
   font-size: 1.4rem;
@@ -33,7 +34,7 @@ body {
 
 #header ul {
   float: right;
-  margin: 28px 0;
+  margin: 34px 0;
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -96,7 +97,7 @@ main {
 }
 
 .main_title {
-  height: 100%;
+  height: 80%;
   writing-mode: vertical-rl;
   font-size: 32px;
   letter-spacing: 10px;
@@ -104,8 +105,8 @@ main {
   width: 90%;
   padding-top: 50px;
   font-family: "Times New Roman", Times, serif;
-  background-image: url(../image/goukaku-penguin.png);
-  background-size: contain;
+  background-image: url(../image/Yaruki_Website.jpg);
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -122,11 +123,10 @@ section {
 section h2 {
   font-size: 42px;
   letter-spacing: 0.15em;
-  height: 70px;
   line-height: 70px;
   padding: 10px;
   font-weight: bolder;
-  display: inline-block;
+  float: none;
 }
 
 section img {
@@ -136,6 +136,7 @@ section img {
 }
 
 .featureImg {
+  mix-blend-mode: multiply;
   width: 80px;
   height: 80px;
   margin-top: 35px;
@@ -195,18 +196,19 @@ section p {
 }
 
 /* 料金 */
+
 .section4 {
   position: relative;
   padding: 1em 2em;
   border: 1px solid black;
   text-align: center;
-  margin-top: 330px;
+  margin-top: 0px;
 }
 
 .on_section {
   position: absolute;
   float: none;
-  top: -8%;
+  top: -12%;
   left: 50%;
   background-color: #f4f4f4;
   transform: translateY(-100%);
@@ -219,16 +221,19 @@ section p {
   padding-top: 5px;
 }
 #feeM {
-  margin-top: 50px;
+  margin-top: 80px;
+  font-size: 18px;
 }
 #entry_btn {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
   padding: 0;
   font-size: 36px;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 30%;
 }
 
 #entry_btn img {
@@ -243,7 +248,7 @@ section p {
   display: block;
 }
 .section5 #companies img {
-  width: 80%;
+  width: 40%;
   height: auto;
   object-fit: cover;
 }
@@ -300,6 +305,28 @@ section p {
 
   #header_nav {
     display: none;
+  }
+
+  .wrapper {
+    width: 80%;
+    text-align: center;
+  }
+  #header p {
+    float: none;
+    width: 50%;
+    margin: 22px 0;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  #header a {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #entry_btn {
+    width: 90%;
   }
 }
 

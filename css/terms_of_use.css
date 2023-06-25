@@ -1,18 +1,55 @@
-h1 {
-  width: 40%;
+.mainHeader {
+  text-align: center;
+}
+
+main h1 {
   margin: 0 auto;
-  font-size: 50px;
+  font-size: 36px;
   font-weight: bolder;
 }
 
-h2 {
+.mainBody {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+main h2 {
   font-size: 24px;
   font-weight: 300;
   padding-top: 50px;
 }
 
-.paragraph {
+main p,
+li,
+td {
   padding-top: 30px;
-  line-height: 150%;
+  line-height: 200%;
   letter-spacing: 0.2em;
+  text-align: justify;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  word-break: break-all;
+  word-wrap: break-all;
+}
+
+td {
+  padding-top: 80px;
+  border-bottom: solid;
+  border-width: thin;
+}
+.name {
+  padding-right: 30px;
+  white-space: nowrap;
+}
+td span {
+  font-size: 14px;
+}
+
+@media (max-width: 850px) {
+  .name {
+    white-space: normal;
+  }
 }
