@@ -48,8 +48,12 @@ td span {
   font-size: 14px;
 }
 
+#email_br {
+  display: none;
+}
+
 footer p,
-li {
+footer li {
   padding: 0;
   margin: 0;
   line-height: 100%;
@@ -58,5 +62,16 @@ li {
 @media (max-width: 850px) {
   .name {
     white-space: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  #email_small {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  #email_br {
+    display: inline;
   }
 }
