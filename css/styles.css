@@ -111,6 +111,11 @@ main {
   background-position: top center;
 }
 
+.iphone_btn {
+  text-align: center;
+  display: none;
+}
+
 /* YARUKIとは */
 
 section {
@@ -234,7 +239,7 @@ section p {
 #feeMspan {
   font-size: 54px;
 }
-#entry_btn {
+.entry_btn {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -246,7 +251,7 @@ section p {
   width: 30%;
 }
 
-#entry_btn img {
+.entry_btn img {
   width: 100%;
   height: auto;
   margin: 0;
@@ -395,7 +400,10 @@ section p {
     width: 50%;
     margin: 0 auto;
   }
-
+  .iphone_btn {
+    display: block;
+    margin-top: 100px;
+  }
   #entry_btn {
     width: 70%;
   }
@@ -420,7 +428,7 @@ section p {
     margin: 0;
     box-sizing: border-box;
     padding-right: 15%;
-    font-size: 12px;
+    font-size: 18px;
     margin-top: 20px;
     background-size: 80%;
     background-position: center top;
